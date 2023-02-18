@@ -3,7 +3,7 @@ name: Build project
 on: [push, pull_request]
 
 jobs:
-  buildForAllSupportedPlatforms:
+  buildWebGL:
     name: Build for ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
     strategy:
